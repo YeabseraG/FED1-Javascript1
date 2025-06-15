@@ -42,6 +42,58 @@ nav ul li {
 
 /*------ Body ------*/
 
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 30px;
+}
+
+.item {
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 70px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 25px;
+}
+
+.bi-dash {
+    color: red;
+}
+
+.bi-plus {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -370,6 +422,7 @@ select:focus{
 
 .page-btn{
     margin: 0 auto 80px;
+    padding-bottom: 310px;
 }
 
 .page-btn span{
