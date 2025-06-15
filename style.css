@@ -88,9 +88,68 @@ nav ul li {
 }
 
 
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn, .checkout, .removeAll {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
+.bi-x-lg {
+    color: red;
+    font-weight: bold;
+}
 
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1,800px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.cart-item{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title-price-x {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+}
+
+.title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price {
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+}
+
+.checkout {
+    background-color: green;
+}
+
+.removeAll {
+    background-color: red;
+}
 
 
 
@@ -215,6 +274,7 @@ p {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 330px;
     
     
 }
