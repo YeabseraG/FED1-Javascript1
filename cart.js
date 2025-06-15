@@ -2,7 +2,6 @@ let label = document.getElementById('label')
 let ShoppingCart = document.getElementById('shopping-cart')
 let basket = JSON.parse(localStorage.getItem("data")) || []
 
-console.log(basket);
 
 let generateCartItems = () => {
     if(basket.length !==0){
@@ -102,7 +101,7 @@ let TotalAmount = () => {
           let search = shopItemsData.find((y)=> y.id === id) || [];
           return item * search.price;
         }).reduce((x,y) => x + y, 0);
-        //console.log(amount);
+    
         label.innerHTML = `
         <h1>Total Bill : $ ${amount}</h1>
         <a href="../checkout/confirmation/index.html">
